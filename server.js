@@ -35,9 +35,9 @@ const upload = multer({ storage: storage });
 // --- 3. DATABASE CONNECTION (FILL THIS IN) ---
 const db = mysql.createConnection({
   host: 'localhost',                // Keep this as 'localhost' for Hostinger
-  user: 'u123456789_admin',         // PASTE YOUR HOSTINGER DB USERNAME HERE
-  password: 'YourStrongPassword123',// PASTE YOUR HOSTINGER DB PASSWORD HERE
-  database: 'u123456789_mart'       // PASTE YOUR HOSTINGER DB NAME HERE
+  user: 'u765356527_northsm',         // PASTE YOUR HOSTINGER DB USERNAME HERE
+  password: 'Sabir@79256',// PASTE YOUR HOSTINGER DB PASSWORD HERE
+  database: 'u765356527_northsm'       // PASTE YOUR HOSTINGER DB NAME HERE
 });
 
 db.connect((err) => {
